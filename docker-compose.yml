@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  agent-api:
+    build: .
+    command: python -m uvicorn api:app --host 0.0.0.0 --port 8001
+    ports:
+      - "8001:8001"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+
+  agent-ui:
+    build: .
+    command: streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8503:8501"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    depends_on:
+      - agent-api

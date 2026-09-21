@@ -1,0 +1,14 @@
+langgraph
+langchain
+langchain-openai
+streamlit
+python-dotenv
+pydantic
+sqlalchemy
+pytest
+fastapi
+uvicorn
+python-multipart
+psycopg2-binary
+plotly
+pandas
