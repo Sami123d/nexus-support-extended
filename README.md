@@ -2,7 +2,7 @@
 
 > An enterprise multi-agent customer support platform: LangGraph supervisor/specialist orchestration, PII scrubbing, and real-time BI analytics.
 
-This project is a modified, extended version of [**Customer-Support-Agent-**](https://github.com/Ismail-2001/Customer-Support-Agent-) ("Nexus Support") by **Ismail Sajid** ([@Ismail-2001](https://github.com/Ismail-2001)), used and redistributed here under the terms of its MIT License. The original author's copyright notice is preserved unmodified in [LICENSE](LICENSE).
+
 
 **This repository does not claim to be the original creation of its maintainer.** It is a derivative work: the LangGraph supervisor/specialist architecture, the Streamlit UI, and the analytics dashboard are Ismail Sajid's; the items below are additions and fixes made on top of that base.
 
